@@ -1,0 +1,15 @@
+Flask
+flask-cors
+python-dotenv
+pypdf
+langchain>=0.3.0,<1.0.0
+langchain-community>=0.3.0,<1.0.0
+langchain-core>=0.3.0,<1.0.0
+langchain-huggingface>=0.1.0,<1.0.0
+langchain-text-splitters>=0.3.0,<1.0.0
+huggingface-hub>=0.36.0
+transformers
+sentence-transformers
+chromadb
+langchain-experimental>=0.3.0,<1.0.0
+rank_bm25

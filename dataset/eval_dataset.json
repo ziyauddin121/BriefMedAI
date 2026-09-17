@@ -1,0 +1,1602 @@
+[
+  {
+    "document_id": "MED-001",
+    "category": "Cardiology",
+    "document_text": "PATIENT DISCHARGE SUMMARY\nPatient: Robert Evans | Age: 58 | Gender: Male | DOB: 1968-04-12\nAdmission Date: 2026-07-10 | Discharge Date: 2026-07-14\nChief Complaint: Progressive exertional chest tightness and shortness of breath over 3 days.\nVitals on Admission: BP 158/96 mmHg, HR 92 bpm, RR 18/min, SpO2 96% on room air, Temp 98.4 F.\nDiagnostic Workup: EKG showed sinus rhythm with T-wave inversions in leads V4-V6. Cardiac Troponin I was elevated at 0.18 ng/mL (normal <0.04 ng/mL). Echocardiogram demonstrated preserved EF of 55% with mild left ventricular hypertrophy.\nPrimary Diagnosis: Non-ST-elevation myocardial infarction (NSTEMI) and Essential [[DIAG|Hypertension]].\nProcedures Performed: Diagnostic [[PROC|coronary angiography]] on 2026-07-11 showed 70% mid-LAD stenosis; successfully treated with drug-eluting [[PROC|stent placement]].\nMedications Prescribed:\n1. [[MED|Aspirin]] 81 mg oral daily.\n2. [[MED|Clopidogrel]] 75 mg oral daily for 12 months.\n3. [[MED|Atorvastatin]] 80 mg oral at bedtime.\n4. [[MED|Metoprolol Succinate]] 50 mg oral daily.\nFollow-up: Cardiology clinic appointment in 2 weeks (2026-07-28). Cardiac rehab orientation scheduled for next Monday.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, and chief complaint?",
+        "ground_truth": "Robert Evans, a 58-year-old male, presented with progressive exertional chest tightness and shortness of breath over 3 days."
+      },
+      {
+        "q_id": 2,
+        "question": "What were the vital signs and key diagnostic lab findings on admission?",
+        "ground_truth": "BP was 158/96 mmHg, HR 92 bpm, SpO2 96%. EKG showed T-wave inversions in leads V4-V6 and Troponin I was elevated at 0.18 ng/mL."
+      },
+      {
+        "q_id": 3,
+        "question": "What primary diagnoses were confirmed for this patient?",
+        "ground_truth": "Non-ST-elevation myocardial infarction (NSTEMI) and Essential Hypertension."
+      },
+      {
+        "q_id": 4,
+        "question": "What medications and dosages were prescribed at discharge?",
+        "ground_truth": "Aspirin 81 mg daily, Clopidogrel 75 mg daily for 12 months, Atorvastatin 80 mg at bedtime, and Metoprolol Succinate 50 mg daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the designated urgency level and when is the follow-up appointment?",
+        "ground_truth": "Urgency level is Urgent; follow-up is scheduled at the Cardiology clinic in 2 weeks on 2026-07-28."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-002",
+    "category": "Endocrinology",
+    "document_text": "OUTPATIENT CLINICAL NOTE\nPatient: Elena Rostova | Age: 46 | Gender: Female | DOB: 1980-09-22\nDate of Visit: 2026-08-05\nChief Complaint: Polyuria, polydipsia, fatigue, and unintentional 6 kg weight loss over the past 2 months.\nVitals: BP 124/78 mmHg, HR 76 bpm, BMI 31.4 kg/m2, Temp 98.6 F.\nLaboratory Results: Fasting plasma glucose 210 mg/dL, HbA1c 9.4%, Serum Creatinine 0.8 mg/dL, eGFR >90 mL/min/1.73m2. Urine microalbumin-to-creatinine ratio 18 mcg/mg (normal).\nAssessment: Newly diagnosed [[DIAG|Type 2 Diabetes Mellitus]] with inadequate glycemic control, [[DIAG|Obesity Class I]].\nPlan & Management:\n1. Initiate [[MED|Metformin]] 500 mg oral twice daily with meals, titrate to 1000 mg twice daily after 2 weeks.\n2. Initiate [[MED|Empagliflozin]] 10 mg oral once daily in the morning.\n3. Referred to certified diabetes educator for nutritional counseling and glucometer training.\n4. Prescribed daily home blood glucose monitoring before breakfast and 2 hours post-dinner.\nFollow-up: Repeat HbA1c and comprehensive metabolic panel in 3 months (2026-11-05).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "Who is the patient and what are her presenting symptoms?",
+        "ground_truth": "Elena Rostova, a 46-year-old female, presenting with polyuria, polydipsia, fatigue, and an unintentional 6 kg weight loss over 2 months."
+      },
+      {
+        "q_id": 2,
+        "question": "What were the significant laboratory results recorded during the visit?",
+        "ground_truth": "Fasting plasma glucose was 210 mg/dL, HbA1c was 9.4%, serum creatinine was 0.8 mg/dL, and urine microalbumin ratio was normal at 18 mcg/mg."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the clinical assessment/diagnosis for Elena Rostova?",
+        "ground_truth": "Newly diagnosed Type 2 Diabetes Mellitus with inadequate glycemic control and Class I Obesity."
+      },
+      {
+        "q_id": 4,
+        "question": "Which pharmaceutical treatments and dosages were initiated?",
+        "ground_truth": "Metformin 500 mg twice daily (titrated to 1000 mg twice daily after 2 weeks) and Empagliflozin 10 mg once daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up interval?",
+        "ground_truth": "Urgency level is Routine; repeat HbA1c and lab follow-up in 3 months on 2026-11-05."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-003",
+    "category": "Pulmonology",
+    "document_text": "EMERGENCY DEPARTMENT CONSULTATION REPORT\nPatient: Marcus Thorne | Age: 34 | Gender: Male | DOB: 1992-01-15\nEncounter Date: 2026-08-14\nChief Complaint: Acute shortness of breath, audible expiratory wheezing, and chest tightness unresponsive to home albuterol.\nVitals: BP 138/86 mmHg, HR 112 bpm (tachycardia), RR 28/min (tachypnea), SpO2 90% on room air, improved to 95% on 2L nasal cannula.\nPhysical Exam: Bilateral diffuse expiratory wheezes, accessory muscle use observed. Peak Expiratory Flow (PEF) 210 L/min (40% of predicted baseline).\nChest X-Ray: Hyperinflation without focal infiltrates, consolidation, or pneumothorax.\nDiagnosis: Severe acute exacerbation of [[DIAG|Bronchial Asthma]].\nEmergency Treatment Given:\n1. Continuous nebulization with [[MED|Albuterol]] 5 mg and [[MED|Ipratropium Bromide]] 0.5 mg.\n2. IV [[MED|Methylprednisolone]] 60 mg single dose.\nDischarge Prescriptions:\n1. [[MED|Prednisone]] 40 mg oral once daily for 5 days (no taper needed).\n2. [[MED|Fluticasone/Salmeterol]] (Advair Diskus 250/50 mcg) 1 inhalation twice daily.\n3. [[MED|Albuterol HFA Inhaler]] 2 puffs every 4-6 hours as needed for rescue.\nFollow-up: Primary care or Pulmonologist within 48 to 72 hours (by 2026-08-17).\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's name, age, and reason for visiting the emergency department?",
+        "ground_truth": "Marcus Thorne, 34-year-old male, visited due to acute shortness of breath, expiratory wheezing, and chest tightness unresponsive to his home albuterol."
+      },
+      {
+        "q_id": 2,
+        "question": "What were the patient's respiratory rate, oxygen saturation, and peak flow findings?",
+        "ground_truth": "Respiratory rate was 28/min, SpO2 was 90% on room air (improved to 95% on 2L O2), and PEF was 210 L/min (40% of predicted)."
+      },
+      {
+        "q_id": 3,
+        "question": "What was the official diagnosis and what did the chest X-ray reveal?",
+        "ground_truth": "Diagnosis was severe acute exacerbation of Bronchial Asthma; Chest X-ray showed hyperinflation without infiltrates or pneumothorax."
+      },
+      {
+        "q_id": 4,
+        "question": "What medications were prescribed for the patient upon discharge?",
+        "ground_truth": "Prednisone 40 mg daily for 5 days, Fluticasone/Salmeterol (250/50 mcg) 1 puff twice daily, and Albuterol HFA 2 puffs every 4-6 hours PRN."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency category and timeframe for follow-up?",
+        "ground_truth": "Urgency is Urgent; follow-up is required within 48 to 72 hours (by 2026-08-17)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-004",
+    "category": "Gastroenterology",
+    "document_text": "GASTROENTEROLOGY PROCEDURE & CONSULT REPORT\nPatient: Priya Patel | Age: 52 | Gender: Female | DOB: 1974-11-03\nProcedure Date: 2026-07-29\nChief Complaint: Recurrent epigastric burning pain, postprandial fullness, and nocturnal reflux over 6 months.\nVitals: BP 118/74 mmHg, HR 68 bpm, RR 14/min, SpO2 99%.\nProcedure: Esophagogastroduodenoscopy ([[PROC|EGD]] / Upper Endoscopy).\nEndoscopy Findings: Severe distal esophageal mucosal erythema with linear ulcerations <5mm (Los Angeles Grade B [[DIAG|Esophagitis]]). 1.2 cm benign-appearing antral ulcer with clean base. Biopsies taken for CLOtest ([[DIAG|Helicobacter pylori]] urease test) returned POSITIVE.\nAssessment: [[DIAG|H. pylori-positive Peptic Ulcer Disease]] and Grade B [[DIAG|Gastroesophageal Reflux Disease (GERD)]].\nQuadruple Eradication Therapy Prescribed (14-day course):\n1. [[MED|Bismuth Subsalicylate]] 524 mg oral four times daily.\n2. [[MED|Metronidazole]] 500 mg oral three times daily.\n3. [[MED|Tetracycline]] 500 mg oral four times daily.\n4. [[MED|Omeprazole]] 40 mg oral twice daily before meals (continue 40 mg daily for 6 weeks after antibiotic course).\nFollow-up: Stool H. pylori antigen test 4 weeks post-antibiotic completion (2026-09-15) to confirm eradication.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What are the patient demographics and symptoms leading to the GI evaluation?",
+        "ground_truth": "Priya Patel, a 52-year-old female, presented with 6 months of recurrent epigastric burning, postprandial fullness, and nocturnal acid reflux."
+      },
+      {
+        "q_id": 2,
+        "question": "What endoscopic findings and biopsy test results were noted?",
+        "ground_truth": "EGD showed LA Grade B Esophagitis and a 1.2 cm antral ulcer; CLOtest for Helicobacter pylori was positive."
+      },
+      {
+        "q_id": 3,
+        "question": "What were the definitive diagnoses given?",
+        "ground_truth": "H. pylori-positive Peptic Ulcer Disease and Grade B Gastroesophageal Reflux Disease (GERD)."
+      },
+      {
+        "q_id": 4,
+        "question": "What medications constitute the prescribed eradication regimen?",
+        "ground_truth": "Bismuth Subsalicylate 524 mg QID, Metronidazole 500 mg TID, Tetracycline 500 mg QID, and Omeprazole 40 mg BID for 14 days."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the follow-up plan and testing required to verify eradication?",
+        "ground_truth": "Urgency is Routine; stool H. pylori antigen test is scheduled 4 weeks after antibiotic completion on 2026-09-15."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-005",
+    "category": "Neurology",
+    "document_text": "NEUROLOGY CLINIC CONSULTATION NOTE\nPatient: Arthur Pendelton | Age: 67 | Gender: Male | DOB: 1959-05-18\nDate: 2026-08-02\nChief Complaint: 8-month history of progressive resting tremor in the right hand, bradykinesia, and micrographia.\nVitals: BP 132/82 mmHg, HR 72 bpm, RR 16/min, Temp 98.2 F.\nNeurological Examination: Asymmetric 4-5 Hz resting tremor of right upper extremity, lead-pipe rigidity in right wrist and elbow, reduced right arm swing during ambulation, subtle postural instability. Mental status intact (MoCA score 28/30).\nBrain MRI (with contrast): Age-appropriate cerebral atrophy, no focal ischemic lesions, mass effect, or normal pressure hydrocephalus.\nImpression: Idiopathic [[DIAG|Parkinson's Disease]] (Hoehn and Yahr Stage I).\nMedications Prescribed:\n1. [[MED|Carbidopa/Levodopa]] (Sinemet 25/100 mg) 1/2 tablet oral three times daily for 1 week, then 1 full tablet three times daily with meals.\n2. [[MED|Rasagiline]] 0.5 mg oral once daily.\nNon-Pharmacologic: Referral to physical therapy for gait training and PWR! (Parkinson Wellness Recovery) exercise program.\nFollow-up: Clinical evaluation in 6 weeks (2026-09-15) to evaluate medication response and motor symptom control.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's demographic profile and presenting motor symptoms?",
+        "ground_truth": "Arthur Pendelton, 67-year-old male, presented with an 8-month history of right-hand resting tremor, bradykinesia, and micrographia."
+      },
+      {
+        "q_id": 2,
+        "question": "What physical exam and brain MRI findings were recorded?",
+        "ground_truth": "Asymmetric 4-5 Hz resting tremor, right upper extremity lead-pipe rigidity, decreased arm swing, and MoCA 28/30. MRI showed age-appropriate atrophy without acute lesions."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary neurological diagnosis and disease stage?",
+        "ground_truth": "Idiopathic Parkinson's Disease (Hoehn and Yahr Stage I)."
+      },
+      {
+        "q_id": 4,
+        "question": "What medications were initiated and how is the primary drug titrated?",
+        "ground_truth": "Carbidopa/Levodopa 25/100 mg (1/2 tab TID for 1 week, then 1 tab TID) and Rasagiline 0.5 mg daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the follow-up timeline?",
+        "ground_truth": "Urgency is Routine; follow-up in neurology clinic in 6 weeks on 2026-09-15."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-006",
+    "category": "Orthopedics",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Dorothy Miller | Age: 62 | Gender: Female\nChief Complaint: Chronic right knee pain and stiffness exacerbated by weight bearing over 1 year.\nVitals & Physical Findings: BP 130/80 mmHg, HR 74 bpm, BMI 29.1.\nDiagnostic Tests & Laboratory Data: Weight-bearing bilateral knee X-rays: medial compartment joint space narrowing, subchondral sclerosis, and osteophyte formation.\nAssessment & Diagnosis: Severe [[DIAG|Osteoarthritis]] of the right knee.\nManagement & Prescriptions: [[MED|Meloxicam]] 15 mg oral once daily, [[MED|Acetaminophen]] 500 mg TID PRN, [[MED|Omeprazole]] 20 mg daily for GI protection.\nFollow-up & Disposition: Orthopedic surgery consult in 4 weeks (2026-09-29) to discuss total knee arthroplasty.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Dorothy Miller, a 62-year-old female, presented with chronic right knee pain and stiffness exacerbated by weight bearing over 1 year."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 130/80 mmHg, HR 74 bpm, BMI 29.1. Diagnostic findings: Weight-bearing bilateral knee X-rays: medial compartment joint space narrowing, subchondral sclerosis, and osteophyte formation."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Severe Osteoarthritis of the right knee."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Meloxicam 15 mg oral once daily, Acetaminophen 500 mg TID PRN, Omeprazole 20 mg daily for GI protection."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Orthopedic surgery consult in 4 weeks (2026-09-29) to discuss total knee arthroplasty."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-007",
+    "category": "Nephrology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: James Wilson | Age: 59 | Gender: Male\nChief Complaint: Routine screening showing declining kidney function, bilateral ankle edema, and frothy urine.\nVitals & Physical Findings: BP 152/92 mmHg, HR 80 bpm, Weight 88 kg.\nDiagnostic Tests & Laboratory Data: Serum Creatinine 2.1 mg/dL (baseline 1.4), eGFR 34 mL/min/1.73m2, Spot urine protein/creatinine ratio 1200 mg/g.\nAssessment & Diagnosis: Stage 3b [[DIAG|Chronic Kidney Disease (CKD)]] secondary to Diabetic Nephropathy.\nManagement & Prescriptions: [[MED|Losartan]] 50 mg oral once daily, [[MED|Dapagliflozin]] 10 mg oral once daily, [[MED|Furosemide]] 20 mg oral every morning.\nFollow-up & Disposition: Repeat renal function panel and nephrology follow-up in 4 weeks (2026-09-30).\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "James Wilson, a 59-year-old male, presented with routine screening showing declining kidney function, bilateral ankle edema, and frothy urine."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 152/92 mmHg, HR 80 bpm, Weight 88 kg. Diagnostic findings: Serum Creatinine 2.1 mg/dL (baseline 1.4), eGFR 34 mL/min/1.73m2, Spot urine protein/creatinine ratio 1200 mg/g."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Stage 3b Chronic Kidney Disease (CKD) secondary to Diabetic Nephropathy."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Losartan 50 mg oral once daily, Dapagliflozin 10 mg oral once daily, Furosemide 20 mg oral every morning."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Repeat renal function panel and nephrology follow-up in 4 weeks (2026-09-30)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-008",
+    "category": "Infectious Disease",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Amina Al-Mansoor | Age: 29 | Gender: Female\nChief Complaint: High fever, productive cough with rust-colored sputum, and right-sided pleuritic chest pain for 4 days.\nVitals & Physical Findings: BP 110/70 mmHg, HR 104 bpm, RR 22/min, Temp 102.3 F, SpO2 93% room air.\nDiagnostic Tests & Laboratory Data: WBC count 16,800/mcL with 88% neutrophils. Chest X-Ray shows dense right middle lobe consolidation.\nAssessment & Diagnosis: Community-Acquired [[DIAG|Lobar Pneumonia]] (likely Streptococcus pneumoniae).\nManagement & Prescriptions: [[MED|Amoxicillin/Clavulanate]] 875/125 mg oral twice daily for 7 days, [[MED|Azithromycin]] 500 mg day 1 then 250 mg daily for 4 days.\nFollow-up & Disposition: Clinic reassessment in 48 hours (2026-09-02); seek ER if SpO2 drops below 92%.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Amina Al-Mansoor, a 29-year-old female, presented with high fever, productive cough with rust-colored sputum, and right-sided pleuritic chest pain for 4 days."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 110/70 mmHg, HR 104 bpm, RR 22/min, Temp 102.3 F, SpO2 93% room air. Diagnostic findings: WBC count 16,800/mcL with 88% neutrophils. Chest X-Ray shows dense right middle lobe consolidation."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Community-Acquired Lobar Pneumonia (likely Streptococcus pneumoniae)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Amoxicillin/Clavulanate 875/125 mg oral twice daily for 7 days, Azithromycin 500 mg day 1 then 250 mg daily for 4 days."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Clinic reassessment in 48 hours (2026-09-02); seek ER if SpO2 drops below 92%."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-009",
+    "category": "Rheumatology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Claire Dupont | Age: 38 | Gender: Female\nChief Complaint: Symmetrical swelling and morning stiffness in bilateral wrists, MCP, and PIP joints lasting >2 hours.\nVitals & Physical Findings: BP 116/72 mmHg, HR 70 bpm, Temp 98.7 F.\nDiagnostic Tests & Laboratory Data: Rheumatoid Factor (RF) positive at 84 IU/mL, Anti-CCP positive at >200 U/mL, ESR 48 mm/hr, CRP 24 mg/L.\nAssessment & Diagnosis: Seropositive [[DIAG|Rheumatoid Arthritis]].\nManagement & Prescriptions: [[MED|Methotrexate]] 15 mg oral once weekly, [[MED|Folic Acid]] 1 mg oral daily except MTX days, [[MED|Prednisone]] 10 mg daily taper.\nFollow-up & Disposition: Rheumatology follow-up with CBC and liver panel in 6 weeks (2026-10-12).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Claire Dupont, a 38-year-old female, presented with symmetrical swelling and morning stiffness in bilateral wrists, mcp, and pip joints lasting >2 hours."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 116/72 mmHg, HR 70 bpm, Temp 98.7 F. Diagnostic findings: Rheumatoid Factor (RF) positive at 84 IU/mL, Anti-CCP positive at >200 U/mL, ESR 48 mm/hr, CRP 24 mg/L."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Seropositive Rheumatoid Arthritis."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Methotrexate 15 mg oral once weekly, Folic Acid 1 mg oral daily except MTX days, Prednisone 10 mg daily taper."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Rheumatology follow-up with CBC and liver panel in 6 weeks (2026-10-12)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-010",
+    "category": "Psychiatry",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: David Kim | Age: 41 | Gender: Male\nChief Complaint: Persistent low mood, anhedonia, early morning awakening, and severe concentration deficit for 3 months.\nVitals & Physical Findings: BP 122/78 mmHg, HR 75 bpm, PHQ-9 score 19 (Moderately Severe Depression).\nDiagnostic Tests & Laboratory Data: Normal thyroid panel (TSH 1.8 mIU/L), Vitamin B12 450 pg/mL, negative toxic screen.\nAssessment & Diagnosis: Major [[DIAG|Depressive Disorder]], single episode, severe without psychotic features.\nManagement & Prescriptions: [[MED|Escitalopram]] 10 mg oral once daily in the morning, titrate to 20 mg after 2 weeks; [[MED|Trazodone]] 50 mg at bedtime PRN insomnia.\nFollow-up & Disposition: Psychiatric review in 2 weeks (2026-09-14) to assess tolerability and suicidal ideation.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "David Kim, a 41-year-old male, presented with persistent low mood, anhedonia, early morning awakening, and severe concentration deficit for 3 months."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 122/78 mmHg, HR 75 bpm, PHQ-9 score 19 (Moderately Severe Depression). Diagnostic findings: Normal thyroid panel (TSH 1.8 mIU/L), Vitamin B12 450 pg/mL, negative toxic screen."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Major Depressive Disorder, single episode, severe without psychotic features."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Escitalopram 10 mg oral once daily in the morning, titrate to 20 mg after 2 weeks; Trazodone 50 mg at bedtime PRN insomnia."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Psychiatric review in 2 weeks (2026-09-14) to assess tolerability and suicidal ideation."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-011",
+    "category": "Dermatology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Sarah Jenkins | Age: 24 | Gender: Female\nChief Complaint: Severe cystic facial and back acne lesions unresponsive to topical retinoids and oral doxycycline.\nVitals & Physical Findings: BP 112/68 mmHg, HR 66 bpm, BMI 21.5.\nDiagnostic Tests & Laboratory Data: Baseline liver enzymes normal (ALT 18, AST 20 U/L), fasting lipid panel normal, serum pregnancy test negative (two sequential tests).\nAssessment & Diagnosis: Severe Recalcitrant Nodulocystic [[DIAG|Acne Vulgaris]].\nManagement & Prescriptions: [[MED|Isotretinoin]] 40 mg oral once daily with high-fat meal (enrolled in iPLEDGE program), [[MED|Aquaphor]] topical balm PRN.\nFollow-up & Disposition: Monthly follow-up in 30 days (2026-09-30) for repeat pregnancy test, hepatic enzymes, and fasting triglycerides.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Sarah Jenkins, a 24-year-old female, presented with severe cystic facial and back acne lesions unresponsive to topical retinoids and oral doxycycline."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 112/68 mmHg, HR 66 bpm, BMI 21.5. Diagnostic findings: Baseline liver enzymes normal (ALT 18, AST 20 U/L), fasting lipid panel normal, serum pregnancy test negative (two sequential tests)."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Severe Recalcitrant Nodulocystic Acne Vulgaris."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Isotretinoin 40 mg oral once daily with high-fat meal (enrolled in iPLEDGE program), Aquaphor topical balm PRN."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Monthly follow-up in 30 days (2026-09-30) for repeat pregnancy test, hepatic enzymes, and fasting triglycerides."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-012",
+    "category": "Urology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Harold Vance | Age: 71 | Gender: Male\nChief Complaint: Nocturia 4-5 times per night, weak urinary stream, hesitancy, and feeling of incomplete bladder emptying.\nVitals & Physical Findings: BP 142/84 mmHg, HR 72 bpm.\nDiagnostic Tests & Laboratory Data: Digital rectal exam: enlarged, smooth, non-tender prostate ~45 grams. Serum PSA 2.8 ng/mL (age-appropriate). Post-void residual 140 mL.\nAssessment & Diagnosis: Benign [[DIAG|Prostatic Hyperplasia (BPH)]] with moderate lower urinary tract symptoms.\nManagement & Prescriptions: [[MED|Tamsulosin]] 0.4 mg oral once daily 30 minutes after the same meal, [[MED|Finasteride]] 5 mg oral once daily.\nFollow-up & Disposition: Urology clinic visit and flow rate re-measurement in 3 months (2026-12-01).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Harold Vance, a 71-year-old male, presented with nocturia 4-5 times per night, weak urinary stream, hesitancy, and feeling of incomplete bladder emptying."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 142/84 mmHg, HR 72 bpm. Diagnostic findings: Digital rectal exam: enlarged, smooth, non-tender prostate ~45 grams. Serum PSA 2.8 ng/mL (age-appropriate). Post-void residual 140 mL."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Benign Prostatic Hyperplasia (BPH) with moderate lower urinary tract symptoms."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Tamsulosin 0.4 mg oral once daily 30 minutes after the same meal, Finasteride 5 mg oral once daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Urology clinic visit and flow rate re-measurement in 3 months (2026-12-01)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-013",
+    "category": "Hematology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Maria Santos | Age: 31 | Gender: Female\nChief Complaint: Extreme fatigue, brittle spoon-shaped nails (koilonychia), dizziness, and craving for ice chips (pica).\nVitals & Physical Findings: BP 104/62 mmHg, HR 98 bpm, conjunctival pallor noted.\nDiagnostic Tests & Laboratory Data: Hemoglobin 7.9 g/dL, Hematocrit 25%, MCV 68 fL (microcytic), Serum Ferritin 6 ng/mL, Iron saturation 8%.\nAssessment & Diagnosis: Severe [[DIAG|Iron Deficiency Anemia]] secondary to heavy menstrual bleeding (menorrhagia).\nManagement & Prescriptions: [[MED|Ferrous Sulfate]] 325 mg (65 mg elemental iron) oral once daily with Vitamin C 500 mg on empty stomach.\nFollow-up & Disposition: Repeat CBC and reticulocyte count in 4 weeks (2026-09-28); gynecology referral for pelvic ultrasound.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Maria Santos, a 31-year-old female, presented with extreme fatigue, brittle spoon-shaped nails (koilonychia), dizziness, and craving for ice chips (pica)."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 104/62 mmHg, HR 98 bpm, conjunctival pallor noted. Diagnostic findings: Hemoglobin 7.9 g/dL, Hematocrit 25%, MCV 68 fL (microcytic), Serum Ferritin 6 ng/mL, Iron saturation 8%."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Severe Iron Deficiency Anemia secondary to heavy menstrual bleeding (menorrhagia)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Ferrous Sulfate 325 mg (65 mg elemental iron) oral once daily with Vitamin C 500 mg on empty stomach."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Repeat CBC and reticulocyte count in 4 weeks (2026-09-28); gynecology referral for pelvic ultrasound."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-014",
+    "category": "Ophthalmology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: George Washington Lee | Age: 66 | Gender: Male\nChief Complaint: Gradual painless deterioration of peripheral vision in both eyes and difficulty adjusting in dim light.\nVitals & Physical Findings: BP 136/82 mmHg, HR 68 bpm.\nDiagnostic Tests & Laboratory Data: Intraocular pressure (IOP) 26 mmHg OD, 28 mmHg OS. Pachymetry average 540 um. Humphrey visual field shows superior arcuate scotoma.\nAssessment & Diagnosis: Primary Open-Angle [[DIAG|Glaucoma]] bilateral.\nManagement & Prescriptions: [[MED|Latanoprost 0.005% ophthalmic solution]] 1 drop both eyes every evening at bedtime, [[MED|Timolol 0.5% drops]] 1 drop BID.\nFollow-up & Disposition: IOP check and visual field follow-up in 4 weeks (2026-09-28).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "George Washington Lee, a 66-year-old male, presented with gradual painless deterioration of peripheral vision in both eyes and difficulty adjusting in dim light."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 136/82 mmHg, HR 68 bpm. Diagnostic findings: Intraocular pressure (IOP) 26 mmHg OD, 28 mmHg OS. Pachymetry average 540 um. Humphrey visual field shows superior arcuate scotoma."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Primary Open-Angle Glaucoma bilateral."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Latanoprost 0.005% ophthalmic solution 1 drop both eyes every evening at bedtime, Timolol 0.5% drops 1 drop BID."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: IOP check and visual field follow-up in 4 weeks (2026-09-28)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-015",
+    "category": "Cardiology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Teresa Cooper | Age: 73 | Gender: Female\nChief Complaint: Sudden onset palpitations, fatigue, and lightheadedness lasting 6 hours prior to arrival.\nVitals & Physical Findings: BP 118/76 mmHg, HR 134 bpm (irregularly irregular), RR 18/min, SpO2 97%.\nDiagnostic Tests & Laboratory Data: EKG: Atrial fibrillation with rapid ventricular response (RVR). TTE: Left atrial enlargement (4.4 cm), preserved EF 50%. CHA2DS2-VASc score = 4.\nAssessment & Diagnosis: Paroxysmal [[DIAG|Atrial Fibrillation]] with RVR, Essential [[DIAG|Hypertension]].\nManagement & Prescriptions: [[MED|Diltiazem]] 180 mg CD oral once daily (rate control), [[MED|Apixaban]] 5 mg oral twice daily (anticoagulation stroke prevention).\nFollow-up & Disposition: Electrophysiology consultation in 2 weeks (2026-09-14); Holter monitor ordered.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Teresa Cooper, a 73-year-old female, presented with sudden onset palpitations, fatigue, and lightheadedness lasting 6 hours prior to arrival."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 118/76 mmHg, HR 134 bpm (irregularly irregular), RR 18/min, SpO2 97%. Diagnostic findings: EKG: Atrial fibrillation with rapid ventricular response (RVR). TTE: Left atrial enlargement (4.4 cm), preserved EF 50%. CHA2DS2-VASc score = 4."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Paroxysmal Atrial Fibrillation with RVR, Essential Hypertension."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Diltiazem 180 mg CD oral once daily (rate control), Apixaban 5 mg oral twice daily (anticoagulation stroke prevention)."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Electrophysiology consultation in 2 weeks (2026-09-14); Holter monitor ordered."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-016",
+    "category": "Endocrinology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Nathaniel Brown | Age: 49 | Gender: Male\nChief Complaint: Cold intolerance, 8 kg unexplained weight gain, chronic constipation, and dry skin over past 6 months.\nVitals & Physical Findings: BP 128/84 mmHg, HR 56 bpm (bradycardia), Temp 97.4 F.\nDiagnostic Tests & Laboratory Data: Serum TSH 14.2 mIU/L (markedly elevated, normal 0.4-4.0), Free T4 0.5 ng/dL (low), Anti-TPO antibodies positive at 340 IU/mL.\nAssessment & Diagnosis: Primary [[DIAG|Hypothyroidism]] secondary to Hashimoto Thyroiditis.\nManagement & Prescriptions: [[MED|Levothyroxine]] 75 mcg oral once daily in the morning 30-60 minutes before breakfast with full glass of water.\nFollow-up & Disposition: Repeat serum TSH and Free T4 in 6 to 8 weeks (2026-10-20) to adjust dosage.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Nathaniel Brown, a 49-year-old male, presented with cold intolerance, 8 kg unexplained weight gain, chronic constipation, and dry skin over past 6 months."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 128/84 mmHg, HR 56 bpm (bradycardia), Temp 97.4 F. Diagnostic findings: Serum TSH 14.2 mIU/L (markedly elevated, normal 0.4-4.0), Free T4 0.5 ng/dL (low), Anti-TPO antibodies positive at 340 IU/mL."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Primary Hypothyroidism secondary to Hashimoto Thyroiditis."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Levothyroxine 75 mcg oral once daily in the morning 30-60 minutes before breakfast with full glass of water."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Repeat serum TSH and Free T4 in 6 to 8 weeks (2026-10-20) to adjust dosage."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-017",
+    "category": "Gastroenterology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Siddharth Rao | Age: 36 | Gender: Male\nChief Complaint: Intermittent cramping lower abdominal pain, 5-6 episodes of bloody diarrhea daily, and tenesmus for 4 weeks.\nVitals & Physical Findings: BP 114/72 mmHg, HR 86 bpm, Temp 99.1 F, Abdominal exam: diffuse left lower quadrant tenderness.\nDiagnostic Tests & Laboratory Data: Stool cultures negative for C. diff, Salmonella, Shigella. Fecal Calprotectin elevated at 620 mcg/g. Colonoscopy shows continuous mucosal inflammation from rectum to splenic flexure.\nAssessment & Diagnosis: Moderate [[DIAG|Ulcerative Colitis]] (Left-sided colitis).\nManagement & Prescriptions: [[MED|Mesalamine]] 4.8 g oral once daily plus [[MED|Mesalamine Enema]] 4 g rectal suspension nightly, [[MED|Prednisone]] 40 mg daily taper over 8 weeks.\nFollow-up & Disposition: Gastroenterology clinic review in 3 weeks (2026-09-21) to evaluate mucosal response.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Siddharth Rao, a 36-year-old male, presented with intermittent cramping lower abdominal pain, 5-6 episodes of bloody diarrhea daily, and tenesmus for 4 weeks."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 114/72 mmHg, HR 86 bpm, Temp 99.1 F, Abdominal exam: diffuse left lower quadrant tenderness. Diagnostic findings: Stool cultures negative for C. diff, Salmonella, Shigella. Fecal Calprotectin elevated at 620 mcg/g. Colonoscopy shows continuous mucosal inflammation from rectum to splenic flexure."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Moderate Ulcerative Colitis (Left-sided colitis)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Mesalamine 4.8 g oral once daily plus Mesalamine Enema 4 g rectal suspension nightly, Prednisone 40 mg daily taper over 8 weeks."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Gastroenterology clinic review in 3 weeks (2026-09-21) to evaluate mucosal response."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-018",
+    "category": "Neurology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Chloe Bennett | Age: 28 | Gender: Female\nChief Complaint: Unilateral pulsating headache on left side, photophobia, phonophobia, and nausea lasting 18 hours.\nVitals & Physical Findings: BP 118/74 mmHg, HR 78 bpm, Neuro exam unremarkable with normal cranial nerves.\nDiagnostic Tests & Laboratory Data: Brain CT non-contrast negative for acute intracranial pathology. Meets ICHD-3 criteria for migraine with visual aura.\nAssessment & Diagnosis: Acute [[DIAG|Migraine with Aura]], episodic.\nManagement & Prescriptions: [[MED|Sumatriptan]] 100 mg oral at onset of headache (may repeat once after 2 hours if needed, max 200 mg/24h), [[MED|Ondansetron]] 4 mg ODT PRN nausea, [[MED|Propranolol]] 40 mg daily for prophylaxis.\nFollow-up & Disposition: Headache clinic follow-up in 8 weeks (2026-10-26) with headache diary.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Chloe Bennett, a 28-year-old female, presented with unilateral pulsating headache on left side, photophobia, phonophobia, and nausea lasting 18 hours."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 118/74 mmHg, HR 78 bpm, Neuro exam unremarkable with normal cranial nerves. Diagnostic findings: Brain CT non-contrast negative for acute intracranial pathology. Meets ICHD-3 criteria for migraine with visual aura."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Acute Migraine with Aura, episodic."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Sumatriptan 100 mg oral at onset of headache (may repeat once after 2 hours if needed, max 200 mg/24h), Ondansetron 4 mg ODT PRN nausea, Propranolol 40 mg daily for prophylaxis."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Headache clinic follow-up in 8 weeks (2026-10-26) with headache diary."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-019",
+    "category": "Allergy & Immunology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Liam O'Connor | Age: 19 | Gender: Male\nChief Complaint: Severe seasonal sneezing, rhinorrhea, nasal congestion, and bilateral conjunctival pruritus during spring/summer.\nVitals & Physical Findings: BP 116/70 mmHg, HR 64 bpm.\nDiagnostic Tests & Laboratory Data: Skin prick test positive for Timothy grass, birch pollen, and house dust mites. Nasal exam: pale, boggy, bluish turbinates.\nAssessment & Diagnosis: Severe Moderate-to-Severe [[DIAG|Allergic Rhinitis]] and Allergic Rhinoconjunctivitis.\nManagement & Prescriptions: [[MED|Fluticasone Propionate nasal spray]] 50 mcg (2 sprays per nostril daily), [[MED|Cetirizine]] 10 mg oral once daily, [[MED|Olopatadine 0.2% eye drops]] 1 drop daily PRN.\nFollow-up & Disposition: Immunology follow-up in 3 months (2026-11-30) to evaluate candidate eligibility for allergen immunotherapy (allergy shots).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Liam O'Connor, a 19-year-old male, presented with severe seasonal sneezing, rhinorrhea, nasal congestion, and bilateral conjunctival pruritus during spring/summer."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 116/70 mmHg, HR 64 bpm. Diagnostic findings: Skin prick test positive for Timothy grass, birch pollen, and house dust mites. Nasal exam: pale, boggy, bluish turbinates."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Severe Moderate-to-Severe Allergic Rhinitis and Allergic Rhinoconjunctivitis."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Fluticasone Propionate nasal spray 50 mcg (2 sprays per nostril daily), Cetirizine 10 mg oral once daily, Olopatadine 0.2% eye drops 1 drop daily PRN."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Immunology follow-up in 3 months (2026-11-30) to evaluate candidate eligibility for allergen immunotherapy (allergy shots)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-020",
+    "category": "Infectious Disease",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Grace Hopper | Age: 68 | Gender: Female\nChief Complaint: Painful vesicular rash in a unilateral dermatomal distribution along the right T6 thoracic band for 3 days.\nVitals & Physical Findings: BP 134/80 mmHg, HR 74 bpm, Temp 99.0 F.\nDiagnostic Tests & Laboratory Data: Dermatologic exam: grouped clear vesicles on an erythematous base along right T6 dermatome, not crossing midline. Tzanck smear positive.\nAssessment & Diagnosis: Acute [[DIAG|Herpes Zoster (Shingles)]] without ophthalmic involvement.\nManagement & Prescriptions: [[MED|Valacyclovir]] 1000 mg oral three times daily for 7 days, [[MED|Gabapentin]] 300 mg oral at bedtime for neuropathic pain control, [[MED|Calamine lotion]] topically PRN.\nFollow-up & Disposition: Primary care visit in 10 days (2026-09-10); monitor for post-herpetic neuralgia.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Grace Hopper, a 68-year-old female, presented with painful vesicular rash in a unilateral dermatomal distribution along the right t6 thoracic band for 3 days."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 134/80 mmHg, HR 74 bpm, Temp 99.0 F. Diagnostic findings: Dermatologic exam: grouped clear vesicles on an erythematous base along right T6 dermatome, not crossing midline. Tzanck smear positive."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Acute Herpes Zoster (Shingles) without ophthalmic involvement."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Valacyclovir 1000 mg oral three times daily for 7 days, Gabapentin 300 mg oral at bedtime for neuropathic pain control, Calamine lotion topically PRN."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Primary care visit in 10 days (2026-09-10); monitor for post-herpetic neuralgia."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-021",
+    "category": "Cardiology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Frank Sinatra Miller | Age: 64 | Gender: Male\nChief Complaint: Bilateral pedal edema (2+ pitting), paroxysmal nocturnal dyspnea, and orthopnea requiring 3 pillows.\nVitals & Physical Findings: BP 146/88 mmHg, HR 82 bpm, RR 20/min, SpO2 94% on room air. JVP elevated at 9 cm.\nDiagnostic Tests & Laboratory Data: Serum NT-proBNP 2450 pg/mL (normal <300). Transthoracic Echo: LVEF reduced at 32%, diffuse hypokinesis.\nAssessment & Diagnosis: Heart Failure with Reduced Ejection Fraction ([[DIAG|HFrEF]] Stage C, NYHA Class III).\nManagement & Prescriptions: [[MED|Sacubitril/Valsartan (Entresto)]] 24/26 mg oral twice daily, [[MED|Carvedilol]] 3.125 mg oral twice daily, [[MED|Spironolactone]] 25 mg oral daily, [[MED|Furosemide]] 40 mg oral twice daily.\nFollow-up & Disposition: Heart Failure bridge clinic appointment in 7 days (2026-09-07) for weight check and electrolyte panel.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Frank Sinatra Miller, a 64-year-old male, presented with bilateral pedal edema (2+ pitting), paroxysmal nocturnal dyspnea, and orthopnea requiring 3 pillows."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 146/88 mmHg, HR 82 bpm, RR 20/min, SpO2 94% on room air. JVP elevated at 9 cm. Diagnostic findings: Serum NT-proBNP 2450 pg/mL (normal <300). Transthoracic Echo: LVEF reduced at 32%, diffuse hypokinesis."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Heart Failure with Reduced Ejection Fraction (HFrEF Stage C, NYHA Class III)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Sacubitril/Valsartan (Entresto) 24/26 mg oral twice daily, Carvedilol 3.125 mg oral twice daily, Spironolactone 25 mg oral daily, Furosemide 40 mg oral twice daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Heart Failure bridge clinic appointment in 7 days (2026-09-07) for weight check and electrolyte panel."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-022",
+    "category": "Pulmonology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Walter White | Age: 61 | Gender: Male\nChief Complaint: 40 pack-year smoking history, progressive exertional dyspnea, and chronic productive morning cough for 2 years.\nVitals & Physical Findings: BP 132/86 mmHg, HR 80 bpm, SpO2 91% on room air.\nDiagnostic Tests & Laboratory Data: Spirometry post-bronchodilator: FEV1/FVC ratio 0.58 (confirming persistent airflow limitation), FEV1 52% of predicted (GOLD 2B).\nAssessment & Diagnosis: Chronic Obstructive Pulmonary Disease ([[DIAG|COPD]] GOLD Grade 2 Group B), chronic [[DIAG|Nicotine Dependence]].\nManagement & Prescriptions: [[MED|Tiotropium Bromide (Spiriva Respimat)]] 2.5 mcg (2 puffs once daily), [[MED|Formoterol/Budesonide]] 160/4.5 mcg 2 puffs twice daily, [[MED|Nicotine Patch]] 21 mg/24h.\nFollow-up & Disposition: Pulmonary rehab referral and repeat spirometry in 3 months (2026-11-30).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Walter White, a 61-year-old male, presented with 40 pack-year smoking history, progressive exertional dyspnea, and chronic productive morning cough for 2 years."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 132/86 mmHg, HR 80 bpm, SpO2 91% on room air. Diagnostic findings: Spirometry post-bronchodilator: FEV1/FVC ratio 0.58 (confirming persistent airflow limitation), FEV1 52% of predicted (GOLD 2B)."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Chronic Obstructive Pulmonary Disease (COPD GOLD Grade 2 Group B), chronic Nicotine Dependence."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Tiotropium Bromide (Spiriva Respimat) 2.5 mcg (2 puffs once daily), Formoterol/Budesonide 160/4.5 mcg 2 puffs twice daily, Nicotine Patch 21 mg/24h."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Pulmonary rehab referral and repeat spirometry in 3 months (2026-11-30)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-023",
+    "category": "Endocrinology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Fatima Zahra | Age: 35 | Gender: Female\nChief Complaint: Weight loss, heat intolerance, anxiety, tremors, and bulging eyes (proptosis) for past 3 months.\nVitals & Physical Findings: BP 142/76 mmHg, HR 108 bpm (resting sinus tachycardia), Temp 98.9 F.\nDiagnostic Tests & Laboratory Data: TSH <0.01 mIU/L (suppressed), Free T4 3.4 ng/dL (elevated), Thyroid-stimulating immunoglobulin (TSI) positive at 380% baseline. Radioactive iodine uptake: diffuse elevated uptake.\nAssessment & Diagnosis: Hyperthyroidism secondary to [[DIAG|Graves' Disease]], mild [[DIAG|Thyroid Eye Disease]].\nManagement & Prescriptions: [[MED|Methimazole]] 20 mg oral once daily, [[MED|Atenolol]] 50 mg oral once daily for adrenergic symptom control.\nFollow-up & Disposition: Endocrinology follow-up with CBC (monitor agranulocytosis) and free thyroid panel in 4 weeks (2026-09-28).\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Fatima Zahra, a 35-year-old female, presented with weight loss, heat intolerance, anxiety, tremors, and bulging eyes (proptosis) for past 3 months."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 142/76 mmHg, HR 108 bpm (resting sinus tachycardia), Temp 98.9 F. Diagnostic findings: TSH <0.01 mIU/L (suppressed), Free T4 3.4 ng/dL (elevated), Thyroid-stimulating immunoglobulin (TSI) positive at 380% baseline. Radioactive iodine uptake: diffuse elevated uptake."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Hyperthyroidism secondary to Graves' Disease, mild Thyroid Eye Disease."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Methimazole 20 mg oral once daily, Atenolol 50 mg oral once daily for adrenergic symptom control."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Endocrinology follow-up with CBC (monitor agranulocytosis) and free thyroid panel in 4 weeks (2026-09-28)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-024",
+    "category": "Orthopedics",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Tyler Durden | Age: 27 | Gender: Male\nChief Complaint: Audible pop and sudden knee buckling while pivoting during a soccer match 24 hours ago, accompanied by rapid joint effusion.\nVitals & Physical Findings: BP 120/75 mmHg, HR 72 bpm.\nDiagnostic Tests & Laboratory Data: Physical exam: positive Lachman test with soft end-point, positive Anterior Drawer test. MRI right knee confirms complete tear of the anterior cruciate ligament (ACL) and minor medial meniscus fraying.\nAssessment & Diagnosis: Complete right [[DIAG|Anterior Cruciate Ligament (ACL) Tear]] and medial [[DIAG|Meniscus Injury]].\nManagement & Prescriptions: [[MED|Ibuprofen]] 600 mg oral three times daily with food, [[MED|Acetaminophen/Codeine]] 300/30 mg 1 tablet Q6H PRN severe pain (max 3 days).\nFollow-up & Disposition: Pre-operative orthopedic surgical consultation in 10 days (2026-09-10) after swelling reduction with RICE protocol.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Tyler Durden, a 27-year-old male, presented with audible pop and sudden knee buckling while pivoting during a soccer match 24 hours ago, accompanied by rapid joint effusion."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 120/75 mmHg, HR 72 bpm. Diagnostic findings: Physical exam: positive Lachman test with soft end-point, positive Anterior Drawer test. MRI right knee confirms complete tear of the anterior cruciate ligament (ACL) and minor medial meniscus fraying."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Complete right Anterior Cruciate Ligament (ACL) Tear and medial Meniscus Injury."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Ibuprofen 600 mg oral three times daily with food, Acetaminophen/Codeine 300/30 mg 1 tablet Q6H PRN severe pain (max 3 days)."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Pre-operative orthopedic surgical consultation in 10 days (2026-09-10) after swelling reduction with RICE protocol."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-025",
+    "category": "Gastroenterology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Helen Mirren | Age: 57 | Gender: Female\nChief Complaint: Sudden onset severe right upper quadrant colicky pain radiating to right infrascapular region after eating a fatty meal.\nVitals & Physical Findings: BP 138/82 mmHg, HR 84 bpm, Temp 99.2 F. Abdominal exam: positive Murphy's sign.\nDiagnostic Tests & Laboratory Data: Total Bilirubin 1.1 mg/dL, ALT 35 U/L, AST 32 U/L, Lipase 40 U/L (normal). Abdominal Ultrasound: multiple gallstones, gallbladder wall thickening (3.8 mm) without pericholecystic fluid.\nAssessment & Diagnosis: Symptomatic [[DIAG|Cholelithiasis]] with acute [[DIAG|Biliary Colic]].\nManagement & Prescriptions: [[MED|Ketorolac]] 10 mg oral every 6 hours PRN biliary spasm (max 5 days), [[MED|Dicyclomine]] 20 mg oral TID before meals PRN cramping.\nFollow-up & Disposition: Elective surgical consult for laparoscopic [[PROC|cholecystectomy]] within 2 weeks (2026-09-14); return to ER if jaundice or high fever occurs.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Helen Mirren, a 57-year-old female, presented with sudden onset severe right upper quadrant colicky pain radiating to right infrascapular region after eating a fatty meal."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 138/82 mmHg, HR 84 bpm, Temp 99.2 F. Abdominal exam: positive Murphy's sign. Diagnostic findings: Total Bilirubin 1.1 mg/dL, ALT 35 U/L, AST 32 U/L, Lipase 40 U/L (normal). Abdominal Ultrasound: multiple gallstones, gallbladder wall thickening (3.8 mm) without pericholecystic fluid."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Symptomatic Cholelithiasis with acute Biliary Colic."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Ketorolac 10 mg oral every 6 hours PRN biliary spasm (max 5 days), Dicyclomine 20 mg oral TID before meals PRN cramping."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Elective surgical consult for laparoscopic [[PROC|cholecystectomy]] within 2 weeks (2026-09-14); return to ER if jaundice or high fever occurs."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-026",
+    "category": "Rheumatology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Victor Vance | Age: 55 | Gender: Male\nChief Complaint: Excruciating acute pain, swelling, erythema, and warmth in the right first metatarsophalangeal (MTP) big toe joint waking him from sleep.\nVitals & Physical Findings: BP 148/90 mmHg, HR 90 bpm, localized severe tenderness over right 1st MTP.\nDiagnostic Tests & Laboratory Data: Serum Uric Acid 9.2 mg/dL. Synovial fluid aspiration: negatively birefringent needle-shaped monosodium urate crystals under polarized light microscopy.\nAssessment & Diagnosis: Acute [[DIAG|Gouty Arthritis]] (Podagra) and Chronic [[DIAG|Hyperuricemia]].\nManagement & Prescriptions: [[MED|Indomethacin]] 50 mg oral three times daily with meals for 5 days, [[MED|Colchicine]] 1.2 mg stat followed by 0.6 mg 1 hour later, then 0.6 mg daily. Hold allopurinol initiation until acute flare resolves.\nFollow-up & Disposition: Clinic follow-up in 2 weeks (2026-09-14) to initiate [[MED|Allopurinol]] uric acid lowering therapy.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Victor Vance, a 55-year-old male, presented with excruciating acute pain, swelling, erythema, and warmth in the right first metatarsophalangeal (mtp) big toe joint waking him from sleep."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 148/90 mmHg, HR 90 bpm, localized severe tenderness over right 1st MTP. Diagnostic findings: Serum Uric Acid 9.2 mg/dL. Synovial fluid aspiration: negatively birefringent needle-shaped monosodium urate crystals under polarized light microscopy."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Acute Gouty Arthritis (Podagra) and Chronic Hyperuricemia."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Indomethacin 50 mg oral three times daily with meals for 5 days, Colchicine 1.2 mg stat followed by 0.6 mg 1 hour later, then 0.6 mg daily. Hold allopurinol initiation until acute flare resolves."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Clinic follow-up in 2 weeks (2026-09-14) to initiate [[MED|Allopurinol]] uric acid lowering therapy."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-027",
+    "category": "Neurology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Jessica Jones | Age: 33 | Gender: Female\nChief Complaint: Subacute loss of vision in right eye with pain on ocular movement (optic neuritis), preceded by transient leg paresthesias 6 months ago.\nVitals & Physical Findings: BP 118/72 mmHg, HR 68 bpm.\nDiagnostic Tests & Laboratory Data: Ophthalmoscopy: mild right optic disc swelling. Brain/Spine MRI with gadolinium: multiple periventricular and juxtacortical T2/FLAIR hyperintensities with callososeptal interface lesions (Dawson fingers).\nAssessment & Diagnosis: Relapsing-Remitting [[DIAG|Multiple Sclerosis (RRMS)]], acute [[DIAG|Optic Neuritis]] episode.\nManagement & Prescriptions: [[MED|IV Methylprednisolone]] 1000 mg daily infusion for 3 days followed by oral prednisone taper; plan to start disease-modifying therapy [[MED|Ocrelizumab]].\nFollow-up & Disposition: Neurology demyelinating disease subspecialty clinic in 2 weeks (2026-09-14).\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Jessica Jones, a 33-year-old female, presented with subacute loss of vision in right eye with pain on ocular movement (optic neuritis), preceded by transient leg paresthesias 6 months ago."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 118/72 mmHg, HR 68 bpm. Diagnostic findings: Ophthalmoscopy: mild right optic disc swelling. Brain/Spine MRI with gadolinium: multiple periventricular and juxtacortical T2/FLAIR hyperintensities with callososeptal interface lesions (Dawson fingers)."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Relapsing-Remitting Multiple Sclerosis (RRMS), acute Optic Neuritis episode."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "IV Methylprednisolone 1000 mg daily infusion for 3 days followed by oral prednisone taper; plan to start disease-modifying therapy Ocrelizumab."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Neurology demyelinating disease subspecialty clinic in 2 weeks (2026-09-14)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-028",
+    "category": "Nephrology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Benjamin Franklin | Age: 47 | Gender: Male\nChief Complaint: Severe spasmodic left flank pain radiating downward to the left groin, associated with gross hematuria and vomiting.\nVitals & Physical Findings: BP 160/98 mmHg (due to severe pain), HR 102 bpm, Afebrile.\nDiagnostic Tests & Laboratory Data: Urinalysis: RBC >100/HPF, no nitrites or leukoesterase. Non-contrast CT Abdomen/Pelvis: 4.5 mm calculus lodged in the distal left ureterovesical junction without hydronephrosis.\nAssessment & Diagnosis: Acute [[DIAG|Urolithiasis]] (Left distal ureteral stone) and gross [[DIAG|Hematuria]].\nManagement & Prescriptions: [[MED|Tamsulosin]] 0.4 mg oral daily (medical expulsive therapy), [[MED|Ketorolac]] 10 mg oral Q6H PRN pain for 5 days, [[MED|Ondansetron]] 4 mg ODT PRN nausea; drink 2.5-3L water daily.\nFollow-up & Disposition: Urology follow-up with repeat low-dose KUB X-ray in 10 days (2026-09-10) to confirm stone passage.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Benjamin Franklin, a 47-year-old male, presented with severe spasmodic left flank pain radiating downward to the left groin, associated with gross hematuria and vomiting."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 160/98 mmHg (due to severe pain), HR 102 bpm, Afebrile. Diagnostic findings: Urinalysis: RBC >100/HPF, no nitrites or leukoesterase. Non-contrast CT Abdomen/Pelvis: 4.5 mm calculus lodged in the distal left ureterovesical junction without hydronephrosis."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Acute Urolithiasis (Left distal ureteral stone) and gross Hematuria."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Tamsulosin 0.4 mg oral daily (medical expulsive therapy), Ketorolac 10 mg oral Q6H PRN pain for 5 days, Ondansetron 4 mg ODT PRN nausea; drink 2.5-3L water daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Urology follow-up with repeat low-dose KUB X-ray in 10 days (2026-09-10) to confirm stone passage."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-029",
+    "category": "Hematology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Rochelle Rock | Age: 43 | Gender: Female\nChief Complaint: Easy bruising, spontaneous gingival bleeding while brushing teeth, and widespread petechiae over lower extremities.\nVitals & Physical Findings: BP 120/78 mmHg, HR 76 bpm, Afebrile. Skin exam: extensive non-palpable petechial rash on both shins.\nDiagnostic Tests & Laboratory Data: Complete Blood Count: Platelet count 14,000/mcL (critical, normal 150,000-450,000), Hemoglobin 13.2 g/dL, WBC 6.8 k/uL. Peripheral smear confirms true thrombocytopenia without clumping.\nAssessment & Diagnosis: Primary Immune [[DIAG|Thrombocytopenia (ITP)]].\nManagement & Prescriptions: [[MED|Dexamethasone]] 40 mg oral once daily for 4 consecutive days (pulse corticosteroid therapy), [[MED|Pantoprazole]] 40 mg oral daily for mucosal protection; avoid NSAIDs/aspirin.\nFollow-up & Disposition: Urgent Hematology follow-up with daily platelet count monitoring in 48 hours (2026-09-02).\nUrgency Level: Critical.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Rochelle Rock, a 43-year-old female, presented with easy bruising, spontaneous gingival bleeding while brushing teeth, and widespread petechiae over lower extremities."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 120/78 mmHg, HR 76 bpm, Afebrile. Skin exam: extensive non-palpable petechial rash on both shins. Diagnostic findings: Complete Blood Count: Platelet count 14,000/mcL (critical, normal 150,000-450,000), Hemoglobin 13.2 g/dL, WBC 6.8 k/uL. Peripheral smear confirms true thrombocytopenia without clumping."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Primary Immune Thrombocytopenia (ITP)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Dexamethasone 40 mg oral once daily for 4 consecutive days (pulse corticosteroid therapy), Pantoprazole 40 mg oral daily for mucosal protection; avoid NSAIDs/aspirin."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Critical. Plan: Urgent Hematology follow-up with daily platelet count monitoring in 48 hours (2026-09-02)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-030",
+    "category": "Cardiology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Julian Bashir | Age: 69 | Gender: Male\nChief Complaint: Progressive dyspnea on minimal exertion, 3 episodes of near-syncope while climbing stairs, and fatigue.\nVitals & Physical Findings: BP 108/78 mmHg with delayed carotid pulse upstroke (pulsus parvus et tardus), HR 72 bpm. Cardiac exam: harsh cresc-decresc systolic ejection murmur radiating to carotids.\nDiagnostic Tests & Laboratory Data: Transthoracic Echo: Aortic valve area (AVA) 0.75 cm2 (severe <1.0), mean transvalvular gradient 46 mmHg, peak jet velocity 4.2 m/s.\nAssessment & Diagnosis: Severe symptomatic Calcific [[DIAG|Aortic Stenosis]].\nManagement & Prescriptions: [[MED|Atorvastatin]] 20 mg oral daily, cautious [[MED|Lisinopril]] 2.5 mg oral daily (monitor hypotension). Avoid intense exertion.\nFollow-up & Disposition: Cardiothoracic Surgery / Structural Heart Team evaluation for [[PROC|Transcatheter Aortic Valve Replacement (TAVR)]] on 2026-09-08.\nUrgency Level: Critical.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Julian Bashir, a 69-year-old male, presented with progressive dyspnea on minimal exertion, 3 episodes of near-syncope while climbing stairs, and fatigue."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 108/78 mmHg with delayed carotid pulse upstroke (pulsus parvus et tardus), HR 72 bpm. Cardiac exam: harsh cresc-decresc systolic ejection murmur radiating to carotids. Diagnostic findings: Transthoracic Echo: Aortic valve area (AVA) 0.75 cm2 (severe <1.0), mean transvalvular gradient 46 mmHg, peak jet velocity 4.2 m/s."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Severe symptomatic Calcific Aortic Stenosis."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Atorvastatin 20 mg oral daily, cautious Lisinopril 2.5 mg oral daily (monitor hypotension). Avoid intense exertion."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Critical. Plan: Cardiothoracic Surgery / Structural Heart Team evaluation for [[PROC|Transcatheter Aortic Valve Replacement (TAVR)]] on 2026-09-08."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-031",
+    "category": "Pulmonology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Samantha Carter | Age: 44 | Gender: Female\nChief Complaint: Persistent non-productive cough, fatigue, bilateral ankle swelling, and tender violaceous nodules on anterior shins (erythema nodosum).\nVitals & Physical Findings: BP 122/76 mmHg, HR 74 bpm, SpO2 98% room air.\nDiagnostic Tests & Laboratory Data: Chest Radiograph & CT: Symmetrical bilateral hilar lymphadenopathy without parenchymal fibrosis (Stage 1). Serum ACE level 94 U/L (elevated). Serum Calcium 9.6 mg/dL (normal).\nAssessment & Diagnosis: Pulmonary [[DIAG|Sarcoidosis]] (Stage I / Löfgren-like presentation).\nManagement & Prescriptions: [[MED|Naproxen]] 500 mg oral twice daily with meals for joint pain/erythema nodosum; watchful waiting without systemic corticosteroids at this stage.\nFollow-up & Disposition: Pulmonology clinic review and repeat pulmonary function testing in 3 months (2026-11-30).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Samantha Carter, a 44-year-old female, presented with persistent non-productive cough, fatigue, bilateral ankle swelling, and tender violaceous nodules on anterior shins (erythema nodosum)."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 122/76 mmHg, HR 74 bpm, SpO2 98% room air. Diagnostic findings: Chest Radiograph & CT: Symmetrical bilateral hilar lymphadenopathy without parenchymal fibrosis (Stage 1). Serum ACE level 94 U/L (elevated). Serum Calcium 9.6 mg/dL (normal)."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Pulmonary Sarcoidosis (Stage I / Löfgren-like presentation)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Naproxen 500 mg oral twice daily with meals for joint pain/erythema nodosum; watchful waiting without systemic corticosteroids at this stage."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Pulmonology clinic review and repeat pulmonary function testing in 3 months (2026-11-30)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-032",
+    "category": "Dermatology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Gideon Graves | Age: 39 | Gender: Male\nChief Complaint: Sharply demarcated erythematous plaques covered with silvery-white scales on extensor surfaces of bilateral elbows and knees.\nVitals & Physical Findings: BP 126/80 mmHg, HR 70 bpm. Nails: pitting and onycholysis noted on thumb nails.\nDiagnostic Tests & Laboratory Data: Skin biopsy confirms marked epidermal hyperplasia (acanthosis), parakeratosis, and Munro microabscesses.\nAssessment & Diagnosis: Moderate-to-Severe Chronic Plaque [[DIAG|Psoriasis]].\nManagement & Prescriptions: [[MED|Clobetasol Propionate 0.05% ointment]] applied topically twice daily for 2 weeks on/2 weeks off, [[MED|Calcipotriene 0.005% cream]] topical daily, plan to evaluate for biologic therapy.\nFollow-up & Disposition: Dermatology reassessment in 6 weeks (2026-10-12) to assess PASI score.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Gideon Graves, a 39-year-old male, presented with sharply demarcated erythematous plaques covered with silvery-white scales on extensor surfaces of bilateral elbows and knees."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 126/80 mmHg, HR 70 bpm. Nails: pitting and onycholysis noted on thumb nails. Diagnostic findings: Skin biopsy confirms marked epidermal hyperplasia (acanthosis), parakeratosis, and Munro microabscesses."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Moderate-to-Severe Chronic Plaque Psoriasis."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Clobetasol Propionate 0.05% ointment applied topically twice daily for 2 weeks on/2 weeks off, Calcipotriene 0.005% cream topical daily, plan to evaluate for biologic therapy."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Dermatology reassessment in 6 weeks (2026-10-12) to assess PASI score."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-033",
+    "category": "Psychiatry",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Oliver Queen | Age: 30 | Gender: Male\nChief Complaint: Recurrent unexpected panic attacks characterized by heart palpitations, chest smothering, trembling, and fear of impending doom.\nVitals & Physical Findings: BP 130/84 mmHg, HR 88 bpm (normalizes between attacks), EKG and troponins negative.\nDiagnostic Tests & Laboratory Data: Normal thyroid function, toxicology screen negative. Meets DSM-5 criteria for Panic Disorder with Agoraphobia.\nAssessment & Diagnosis: [[DIAG|Panic Disorder]] and Mild [[DIAG|Agoraphobia]].\nManagement & Prescriptions: [[MED|Sertraline]] 25 mg oral once daily for 1 week, then increase to 50 mg daily; [[MED|Clonazepam]] 0.5 mg oral PRN acute severe panic (dispensed max 10 tablets for bridge therapy).\nFollow-up & Disposition: Cognitive Behavioral Therapy (CBT) intake and psychiatric review in 2 weeks (2026-09-14).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Oliver Queen, a 30-year-old male, presented with recurrent unexpected panic attacks characterized by heart palpitations, chest smothering, trembling, and fear of impending doom."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 130/84 mmHg, HR 88 bpm (normalizes between attacks), EKG and troponins negative. Diagnostic findings: Normal thyroid function, toxicology screen negative. Meets DSM-5 criteria for Panic Disorder with Agoraphobia."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Panic Disorder and Mild Agoraphobia."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Sertraline 25 mg oral once daily for 1 week, then increase to 50 mg daily; Clonazepam 0.5 mg oral PRN acute severe panic (dispensed max 10 tablets for bridge therapy)."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Cognitive Behavioral Therapy (CBT) intake and psychiatric review in 2 weeks (2026-09-14)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-034",
+    "category": "Gastroenterology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Bruce Banner | Age: 48 | Gender: Male\nChief Complaint: Routine executive health exam found elevated liver enzymes; patient reports intermittent mild right upper quadrant fullness, denies alcohol intake.\nVitals & Physical Findings: BP 138/88 mmHg, HR 76 bpm, BMI 32.8 kg/m2 (Obese), Waist circumference 104 cm.\nDiagnostic Tests & Laboratory Data: AST 58 U/L, ALT 74 U/L, Alkaline Phosphatase 88 U/L, Fasting Triglycerides 240 mg/dL. Viral hepatitis panel (A, B, C) negative. Liver Ultrasound demonstrates diffuse hepatic steatosis without focal mass.\nAssessment & Diagnosis: Metabolic Dysfunction-Associated Steatohepatitis ([[DIAG|MASH / Non-Alcoholic Fatty Liver Disease]]).\nManagement & Prescriptions: [[MED|Semaglutide]] 0.25 mg subcutaneously once weekly for 4 weeks (titrate to 0.5 mg), [[MED|Vitamin E]] 800 IU oral daily, lifestyle intervention targeting 7-10% body weight loss.\nFollow-up & Disposition: Gastroenterology/Hepatology follow-up with repeat LFTs and FibroScan in 3 months (2026-12-01).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Bruce Banner, a 48-year-old male, presented with routine executive health exam found elevated liver enzymes; patient reports intermittent mild right upper quadrant fullness, denies alcohol intake."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 138/88 mmHg, HR 76 bpm, BMI 32.8 kg/m2 (Obese), Waist circumference 104 cm. Diagnostic findings: AST 58 U/L, ALT 74 U/L, Alkaline Phosphatase 88 U/L, Fasting Triglycerides 240 mg/dL. Viral hepatitis panel (A, B, C) negative. Liver Ultrasound demonstrates diffuse hepatic steatosis without focal mass."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Metabolic Dysfunction-Associated Steatohepatitis (MASH / Non-Alcoholic Fatty Liver Disease)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Semaglutide 0.25 mg subcutaneously once weekly for 4 weeks (titrate to 0.5 mg), Vitamin E 800 IU oral daily, lifestyle intervention targeting 7-10% body weight loss."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Gastroenterology/Hepatology follow-up with repeat LFTs and FibroScan in 3 months (2026-12-01)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-035",
+    "category": "Infectious Disease",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Natasha Romanoff | Age: 26 | Gender: Female\nChief Complaint: Dysuria, urinary urgency, frequency, and suprapubic cramping pain for 2 days; denies flank pain, nausea, or fever.\nVitals & Physical Findings: BP 114/70 mmHg, HR 72 bpm, Temp 98.6 F. Physical exam: mild suprapubic tenderness without costovertebral angle (CVA) tenderness.\nDiagnostic Tests & Laboratory Data: Urinalysis: Positive leukocyte esterase, positive nitrites, WBC 25-50/HPF, bacteria 3+. Urine pregnancy test negative.\nAssessment & Diagnosis: Acute Uncomplicated [[DIAG|Cystitis / Urinary Tract Infection (UTI)]].\nManagement & Prescriptions: [[MED|Nitrofurantoin Monohydrate/Macrocrystals (Macrobid)]] 100 mg oral twice daily with meals for 5 days, [[MED|Phenazopyridine]] 100 mg oral TID PRN urinary burning (limit to 2 days).\nFollow-up & Disposition: Return to clinic if symptoms do not improve within 48 hours or if fever/back pain develops.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Natasha Romanoff, a 26-year-old female, presented with dysuria, urinary urgency, frequency, and suprapubic cramping pain for 2 days; denies flank pain, nausea, or fever."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 114/70 mmHg, HR 72 bpm, Temp 98.6 F. Physical exam: mild suprapubic tenderness without costovertebral angle (CVA) tenderness. Diagnostic findings: Urinalysis: Positive leukocyte esterase, positive nitrites, WBC 25-50/HPF, bacteria 3+. Urine pregnancy test negative."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Acute Uncomplicated Cystitis / Urinary Tract Infection (UTI)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Nitrofurantoin Monohydrate/Macrocrystals (Macrobid) 100 mg oral twice daily with meals for 5 days, Phenazopyridine 100 mg oral TID PRN urinary burning (limit to 2 days)."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Return to clinic if symptoms do not improve within 48 hours or if fever/back pain develops."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-036",
+    "category": "Cardiology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Leonard McCoy | Age: 65 | Gender: Male\nChief Complaint: Known long-standing hypertension presenting for medication adjustment; current home readings consistently 155-165 / 95-100 mmHg.\nVitals & Physical Findings: BP in clinic: 162/98 mmHg (both arms), HR 68 bpm, BMI 27.2.\nDiagnostic Tests & Laboratory Data: Serum Potassium 4.4 mEq/L, BUN 16 mg/dL, Creatinine 0.9 mg/dL. EKG shows voltage criteria for left ventricular hypertrophy (LVH).\nAssessment & Diagnosis: Uncontrolled Essential [[DIAG|Hypertension]] (Stage 2).\nManagement & Prescriptions: [[MED|Amlodipine]] 10 mg oral once daily, [[MED|Lisinopril]] 20 mg oral once daily, [[MED|Hydrochlorothiazide]] 25 mg oral once daily.\nFollow-up & Disposition: Nurse blood pressure check in 2 weeks (2026-09-14); comprehensive metabolic panel in 4 weeks.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Leonard McCoy, a 65-year-old male, presented with known long-standing hypertension presenting for medication adjustment; current home readings consistently 155-165 / 95-100 mmhg."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP in clinic: 162/98 mmHg (both arms), HR 68 bpm, BMI 27.2. Diagnostic findings: Serum Potassium 4.4 mEq/L, BUN 16 mg/dL, Creatinine 0.9 mg/dL. EKG shows voltage criteria for left ventricular hypertrophy (LVH)."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Uncontrolled Essential Hypertension (Stage 2)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Amlodipine 10 mg oral once daily, Lisinopril 20 mg oral once daily, Hydrochlorothiazide 25 mg oral once daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Nurse blood pressure check in 2 weeks (2026-09-14); comprehensive metabolic panel in 4 weeks."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-037",
+    "category": "Endocrinology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Luke Skywalker | Age: 22 | Gender: Male\nChief Complaint: Brought to emergency room with nausea, severe abdominal pain, Kussmaul respirations, fruity breath odor, and extreme dehydration.\nVitals & Physical Findings: BP 96/60 mmHg, HR 124 bpm (sinus tachycardia), RR 28/min, Temp 98.4 F.\nDiagnostic Tests & Laboratory Data: Fingerstick blood glucose 480 mg/dL. Arterial Blood Gas: pH 7.18, HCO3 10 mEq/L, pCO2 24 mmHg. Serum beta-hydroxybutyrate 4.8 mmol/L (elevated), Anion gap 24.\nAssessment & Diagnosis: [[DIAG|Diabetic Ketoacidosis (DKA)]] as first presentation of [[DIAG|Type 1 Diabetes Mellitus]].\nManagement & Prescriptions: [[MED|IV Regular Insulin]] continuous infusion at 0.1 units/kg/hr after IV fluid resuscitation (Normal Saline 1L/hr), IV Potassium Chloride replacement protocol. Transition to subcutaneous [[MED|Insulin Glargine]] 20 units at bedtime and [[MED|Insulin Lispro]] with meals upon DKA resolution.\nFollow-up & Disposition: Endocrinology inpatient team care, diabetes education before discharge; outpatient follow-up in 1 week (2026-09-08).\nUrgency Level: Critical.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Luke Skywalker, a 22-year-old male, presented with brought to emergency room with nausea, severe abdominal pain, kussmaul respirations, fruity breath odor, and extreme dehydration."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 96/60 mmHg, HR 124 bpm (sinus tachycardia), RR 28/min, Temp 98.4 F. Diagnostic findings: Fingerstick blood glucose 480 mg/dL. Arterial Blood Gas: pH 7.18, HCO3 10 mEq/L, pCO2 24 mmHg. Serum beta-hydroxybutyrate 4.8 mmol/L (elevated), Anion gap 24."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Diabetic Ketoacidosis (DKA) as first presentation of Type 1 Diabetes Mellitus."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "IV Regular Insulin continuous infusion at 0.1 units/kg/hr after IV fluid resuscitation (Normal Saline 1L/hr), IV Potassium Chloride replacement protocol. Transition to subcutaneous Insulin Glargine 20 units at bedtime and Insulin Lispro with meals upon DKA resolution."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Critical. Plan: Endocrinology inpatient team care, diabetes education before discharge; outpatient follow-up in 1 week (2026-09-08)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-038",
+    "category": "Neurology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Jean Grey | Age: 37 | Gender: Female\nChief Complaint: Sudden onset of right-sided facial droop, inability to close right eye, loss of taste on anterior 2/3 of tongue for 18 hours; forehead movement absent.\nVitals & Physical Findings: BP 120/76 mmHg, HR 70 bpm. Neurological exam: complete right lower motor neuron facial nerve palsy (House-Brackmann Grade IV), forehead involved, extremities 5/5 strength.\nDiagnostic Tests & Laboratory Data: Non-contrast Brain CT negative for stroke or intracranial hemorrhage. Clinical diagnosis of Idiopathic Facial Palsy.\nAssessment & Diagnosis: Acute [[DIAG|Bell's Palsy]] (Right Seventh Cranial Nerve Palsy).\nManagement & Prescriptions: [[MED|Prednisone]] 60 mg oral once daily for 5 days, then tapered over 5 days, [[MED|Valacyclovir]] 1000 mg oral three times daily for 7 days, [[MED|Carboxymethylcellulose 0.5% artificial tears]] hourly and eye taping at night.\nFollow-up & Disposition: Neurology follow-up in 14 days (2026-09-14) to evaluate facial nerve recovery.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Jean Grey, a 37-year-old female, presented with sudden onset of right-sided facial droop, inability to close right eye, loss of taste on anterior 2/3 of tongue for 18 hours; forehead movement absent."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 120/76 mmHg, HR 70 bpm. Neurological exam: complete right lower motor neuron facial nerve palsy (House-Brackmann Grade IV), forehead involved, extremities 5/5 strength. Diagnostic findings: Non-contrast Brain CT negative for stroke or intracranial hemorrhage. Clinical diagnosis of Idiopathic Facial Palsy."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Acute Bell's Palsy (Right Seventh Cranial Nerve Palsy)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Prednisone 60 mg oral once daily for 5 days, then tapered over 5 days, Valacyclovir 1000 mg oral three times daily for 7 days, Carboxymethylcellulose 0.5% artificial tears hourly and eye taping at night."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Neurology follow-up in 14 days (2026-09-14) to evaluate facial nerve recovery."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-039",
+    "category": "Pulmonology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Peter Parker | Age: 21 | Gender: Male\nChief Complaint: Sudden onset sharp right-sided pleuritic chest pain and breathlessness while resting; tall, thin body habitus.\nVitals & Physical Findings: BP 124/78 mmHg, HR 96 bpm, RR 20/min, SpO2 96% room air. Physical exam: decreased breath sounds and hyperresonance on right thorax.\nDiagnostic Tests & Laboratory Data: Upright inspiratory chest X-ray reveals a 25% right-sided apical pneumothorax without mediastinal shift or tension physiology.\nAssessment & Diagnosis: Primary Spontaneous [[DIAG|Pneumothorax]] (Right).\nManagement & Prescriptions: Conservative observation with high-flow oxygen (10L non-rebreather mask), [[MED|Acetaminophen]] 1000 mg oral TID PRN pain. Repeat chest X-ray in 4 hours showed no progression.\nFollow-up & Disposition: Follow-up chest radiograph in 48 hours (2026-09-02). Advised strictly against air travel and scuba diving until complete resolution.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Peter Parker, a 21-year-old male, presented with sudden onset sharp right-sided pleuritic chest pain and breathlessness while resting; tall, thin body habitus."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 124/78 mmHg, HR 96 bpm, RR 20/min, SpO2 96% room air. Physical exam: decreased breath sounds and hyperresonance on right thorax. Diagnostic findings: Upright inspiratory chest X-ray reveals a 25% right-sided apical pneumothorax without mediastinal shift or tension physiology."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Primary Spontaneous Pneumothorax (Right)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Conservative observation with high-flow oxygen (10L non-rebreather mask), Acetaminophen 1000 mg oral TID PRN pain. Repeat chest X-ray in 4 hours showed no progression."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Follow-up chest radiograph in 48 hours (2026-09-02). Advised strictly against air travel and scuba diving until complete resolution."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-040",
+    "category": "Orthopedics",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Wanda Maximoff | Age: 45 | Gender: Female\nChief Complaint: Pain and burning tingling sensation in thumb, index, and middle fingers of right dominant hand, worsening at night and while typing.\nVitals & Physical Findings: BP 118/74 mmHg, HR 68 bpm. Physical exam: positive Phalen maneuver and positive Tinel sign at the right wrist. Thenar muscle bulk preserved.\nDiagnostic Tests & Laboratory Data: Electromyography and Nerve Conduction Velocity (EMG/NCV) study shows delayed distal median sensory latency (3.9 ms) across the carpal tunnel.\nAssessment & Diagnosis: Moderate Right [[DIAG|Carpal Tunnel Syndrome]].\nManagement & Prescriptions: [[MED|Naproxen]] 375 mg oral twice daily for 2 weeks, nocturnal neutral wrist splinting, ergonomic workstation modifications.\nFollow-up & Disposition: Orthopedic hand clinic follow-up in 6 weeks (2026-10-12); consider ultrasound-guided steroid injection if splinting fails.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Wanda Maximoff, a 45-year-old female, presented with pain and burning tingling sensation in thumb, index, and middle fingers of right dominant hand, worsening at night and while typing."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 118/74 mmHg, HR 68 bpm. Physical exam: positive Phalen maneuver and positive Tinel sign at the right wrist. Thenar muscle bulk preserved. Diagnostic findings: Electromyography and Nerve Conduction Velocity (EMG/NCV) study shows delayed distal median sensory latency (3.9 ms) across the carpal tunnel."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Moderate Right Carpal Tunnel Syndrome."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Naproxen 375 mg oral twice daily for 2 weeks, nocturnal neutral wrist splinting, ergonomic workstation modifications."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Orthopedic hand clinic follow-up in 6 weeks (2026-10-12); consider ultrasound-guided steroid injection if splinting fails."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-041",
+    "category": "Dermatology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Steve Rogers | Age: 72 | Gender: Male\nChief Complaint: Slow-growing pearly papule with rolled borders, central ulceration, and overlying telangiectasias on the right temple for 9 months.\nVitals & Physical Findings: BP 130/80 mmHg, HR 64 bpm.\nDiagnostic Tests & Laboratory Data: Dermoscopic examination reveals arborizing telangiectatic vessels and shiny white structures. Shave biopsy confirms basaloid epithelial nests with peripheral palisading.\nAssessment & Diagnosis: Nodular [[DIAG|Basal Cell Carcinoma (BCC)]] of the right temporal skin.\nManagement & Prescriptions: Surgical excision via [[PROC|Mohs Micrographic Surgery]] scheduled on 2026-09-22. Topical mupirocin 2% ointment applied to biopsy site twice daily.\nFollow-up & Disposition: Pre-operative Mohs appointment on 2026-09-22; annual full-body skin examination.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Steve Rogers, a 72-year-old male, presented with slow-growing pearly papule with rolled borders, central ulceration, and overlying telangiectasias on the right temple for 9 months."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 130/80 mmHg, HR 64 bpm. Diagnostic findings: Dermoscopic examination reveals arborizing telangiectatic vessels and shiny white structures. Shave biopsy confirms basaloid epithelial nests with peripheral palisading."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Nodular Basal Cell Carcinoma (BCC) of the right temporal skin."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Surgical excision via Mohs Micrographic Surgery scheduled on 2026-09-22. Topical mupirocin 2% ointment applied to biopsy site twice daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Pre-operative Mohs appointment on 2026-09-22; annual full-body skin examination."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-042",
+    "category": "Nephrology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Peggy Carter | Age: 60 | Gender: Female\nChief Complaint: Persistent microscopic hematuria and microalbuminuria on annual labs; brother on hemodialysis for polycystic kidney disease.\nVitals & Physical Findings: BP 148/92 mmHg, HR 72 bpm. Abdominal palpation: palpable bilateral flank masses.\nDiagnostic Tests & Laboratory Data: Serum Creatinine 1.2 mg/dL, eGFR 58 mL/min/1.73m2. Renal Ultrasound reveals bilaterally enlarged kidneys with numerous fluid-filled cortical and medullary cysts (Mayo Class 1C).\nAssessment & Diagnosis: Autosomal Dominant [[DIAG|Polycystic Kidney Disease (ADPKD)]], Stage 3a [[DIAG|CKD]].\nManagement & Prescriptions: [[MED|Tolvaptan]] 45 mg morning / 15 mg afternoon oral daily (slows cyst growth), [[MED|Telmisartan]] 80 mg oral once daily (strict BP target <120/80).\nFollow-up & Disposition: Nephrology follow-up with liver enzymes (due to tolvaptan) and electrolytes in 4 weeks (2026-09-28).\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Peggy Carter, a 60-year-old female, presented with persistent microscopic hematuria and microalbuminuria on annual labs; brother on hemodialysis for polycystic kidney disease."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 148/92 mmHg, HR 72 bpm. Abdominal palpation: palpable bilateral flank masses. Diagnostic findings: Serum Creatinine 1.2 mg/dL, eGFR 58 mL/min/1.73m2. Renal Ultrasound reveals bilaterally enlarged kidneys with numerous fluid-filled cortical and medullary cysts (Mayo Class 1C)."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Autosomal Dominant Polycystic Kidney Disease (ADPKD), Stage 3a CKD."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Tolvaptan 45 mg morning / 15 mg afternoon oral daily (slows cyst growth), Telmisartan 80 mg oral once daily (strict BP target <120/80)."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Nephrology follow-up with liver enzymes (due to tolvaptan) and electrolytes in 4 weeks (2026-09-28)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-043",
+    "category": "Cardiology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Anthony Stark | Age: 51 | Gender: Male\nChief Complaint: Substernal chest pressure brought on consistently by brisk walking or climbing 2 flights of stairs, relieved within 3 minutes of rest.\nVitals & Physical Findings: BP 136/84 mmHg, HR 78 bpm, BMI 26.5.\nDiagnostic Tests & Laboratory Data: Resting EKG normal. Exercise Treadmill Stress Test: 1.5 mm horizontal ST depression in leads II, III, aVF, and V5 at 6 METs without ventricular arrhythmias.\nAssessment & Diagnosis: Chronic Stable [[DIAG|Angina Pectoris]], Coronary Artery Disease.\nManagement & Prescriptions: [[MED|Nitroglycerin Sublingual tablet]] 0.4 mg PRN acute chest pain (max 3 doses 5 min apart), [[MED|Metoprolol Tartrate]] 25 mg oral twice daily, [[MED|Aspirin]] 81 mg daily, [[MED|Atorvastatin]] 40 mg daily.\nFollow-up & Disposition: Cardiology clinic review in 3 weeks (2026-09-21); outpatient elective coronary CT angiography scheduled for 2026-09-15.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Anthony Stark, a 51-year-old male, presented with substernal chest pressure brought on consistently by brisk walking or climbing 2 flights of stairs, relieved within 3 minutes of rest."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 136/84 mmHg, HR 78 bpm, BMI 26.5. Diagnostic findings: Resting EKG normal. Exercise Treadmill Stress Test: 1.5 mm horizontal ST depression in leads II, III, aVF, and V5 at 6 METs without ventricular arrhythmias."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Chronic Stable Angina Pectoris, Coronary Artery Disease."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Nitroglycerin Sublingual tablet 0.4 mg PRN acute chest pain (max 3 doses 5 min apart), Metoprolol Tartrate 25 mg oral twice daily, Aspirin 81 mg daily, Atorvastatin 40 mg daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Cardiology clinic review in 3 weeks (2026-09-21); outpatient elective coronary CT angiography scheduled for 2026-09-15."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-044",
+    "category": "Endocrinology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Carol Danvers | Age: 32 | Gender: Female\nChief Complaint: Irregular oligomenorrheic menstrual cycles (every 45-60 days), worsening hirsutism on chin, and difficulty conceiving for 14 months.\nVitals & Physical Findings: BP 122/80 mmHg, HR 72 bpm, BMI 28.6 kg/m2, Ferriman-Gallwey score 12.\nDiagnostic Tests & Laboratory Data: Serum Total Testosterone elevated at 68 ng/dL, Fasting insulin 18 uIU/mL, LH/FSH ratio 2.8. Pelvic Ultrasound: bilateral enlarged ovaries with 'string of pearls' peripheral follicles >20 per ovary.\nAssessment & Diagnosis: [[DIAG|Polycystic Ovary Syndrome (PCOS)]] and mild [[DIAG|Insulin Resistance]].\nManagement & Prescriptions: [[MED|Metformin]] 500 mg oral twice daily with food, [[MED|Spironolactone]] 50 mg oral once daily (anti-androgen), [[MED|Combined Oral Contraceptive]] (Drospirenone/Ethinyl Estradiol 3mg/0.03mg) daily.\nFollow-up & Disposition: Endocrinology/Reproductive health visit in 3 months (2026-11-30).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Carol Danvers, a 32-year-old female, presented with irregular oligomenorrheic menstrual cycles (every 45-60 days), worsening hirsutism on chin, and difficulty conceiving for 14 months."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 122/80 mmHg, HR 72 bpm, BMI 28.6 kg/m2, Ferriman-Gallwey score 12. Diagnostic findings: Serum Total Testosterone elevated at 68 ng/dL, Fasting insulin 18 uIU/mL, LH/FSH ratio 2.8. Pelvic Ultrasound: bilateral enlarged ovaries with 'string of pearls' peripheral follicles >20 per ovary."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Polycystic Ovary Syndrome (PCOS) and mild Insulin Resistance."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Metformin 500 mg oral twice daily with food, Spironolactone 50 mg oral once daily (anti-androgen), Combined Oral Contraceptive (Drospirenone/Ethinyl Estradiol 3mg/0.03mg) daily."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Endocrinology/Reproductive health visit in 3 months (2026-11-30)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-045",
+    "category": "Urology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Clint Barton | Age: 53 | Gender: Male\nChief Complaint: Left testicular dull ache and dragging sensation that worsens after prolonged standing or heavy lifting, relieved when lying supine.\nVitals & Physical Findings: BP 124/76 mmHg, HR 70 bpm. Genitourinary exam: soft, non-tender, 'bag of worms' palpable mass superior and posterior to the left testis, prominent with Valsalva maneuver.\nDiagnostic Tests & Laboratory Data: Scrotal Color Doppler Ultrasound: multiple dilated pampiniform venous channels >3.5 mm with documented retrograde venous reflux during Valsalva.\nAssessment & Diagnosis: Left-sided Grade III [[DIAG|Varicocele]].\nManagement & Prescriptions: [[MED|Ibuprofen]] 400 mg oral twice daily PRN pain with meals, scrotal athletic supporter, avoidance of prolonged heavy lifting.\nFollow-up & Disposition: Urology clinic follow-up with semen analysis in 8 weeks (2026-10-26) to evaluate fertility parameters.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Clint Barton, a 53-year-old male, presented with left testicular dull ache and dragging sensation that worsens after prolonged standing or heavy lifting, relieved when lying supine."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 124/76 mmHg, HR 70 bpm. Genitourinary exam: soft, non-tender, 'bag of worms' palpable mass superior and posterior to the left testis, prominent with Valsalva maneuver. Diagnostic findings: Scrotal Color Doppler Ultrasound: multiple dilated pampiniform venous channels >3.5 mm with documented retrograde venous reflux during Valsalva."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Left-sided Grade III Varicocele."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Ibuprofen 400 mg oral twice daily PRN pain with meals, scrotal athletic supporter, avoidance of prolonged heavy lifting."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Urology clinic follow-up with semen analysis in 8 weeks (2026-10-26) to evaluate fertility parameters."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-046",
+    "category": "Rheumatology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Matt Murdock | Age: 36 | Gender: Male\nChief Complaint: Chronic low back pain and morning stiffness for over 2 years, improving with movement and physical activity but not with rest.\nVitals & Physical Findings: BP 120/78 mmHg, HR 72 bpm. Spinal exam: reduced lumbar flexion (modified Schober test 3.5 cm expansion), positive bilateral Faber test.\nDiagnostic Tests & Laboratory Data: HLA-B27 genetic allele POSITIVE. Pelvic MRI (STIR sequence): bilateral subchondral bone marrow edema in the sacroiliac joints confirming active sacroiliitis.\nAssessment & Diagnosis: [[DIAG|Ankylosing Spondylitis (Axial Spondyloarthritis)]].\nManagement & Prescriptions: [[MED|Celecoxib]] 200 mg oral twice daily with meals, plan for anti-TNF biologic [[MED|Adalimumab]] 40 mg subcutaneous injection every 2 weeks, structured physical therapy.\nFollow-up & Disposition: Rheumatology follow-up in 4 weeks (2026-09-28) to verify latent TB testing before biologic initiation.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Matt Murdock, a 36-year-old male, presented with chronic low back pain and morning stiffness for over 2 years, improving with movement and physical activity but not with rest."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 120/78 mmHg, HR 72 bpm. Spinal exam: reduced lumbar flexion (modified Schober test 3.5 cm expansion), positive bilateral Faber test. Diagnostic findings: HLA-B27 genetic allele POSITIVE. Pelvic MRI (STIR sequence): bilateral subchondral bone marrow edema in the sacroiliac joints confirming active sacroiliitis."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Ankylosing Spondylitis (Axial Spondyloarthritis)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Celecoxib 200 mg oral twice daily with meals, plan for anti-TNF biologic Adalimumab 40 mg subcutaneous injection every 2 weeks, structured physical therapy."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Rheumatology follow-up in 4 weeks (2026-09-28) to verify latent TB testing before biologic initiation."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-047",
+    "category": "Psychiatry",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Barry Allen | Age: 25 | Gender: Male\nChief Complaint: Lifelong severe inattention, inability to organize daily tasks, chronic procrastination, and impulsive interruption of conversations impacting job performance.\nVitals & Physical Findings: BP 118/74 mmHg, HR 70 bpm, Baseline EKG normal sinus rhythm.\nDiagnostic Tests & Laboratory Data: ASRS-v1.1 (Adult ADHD Self-Report Scale) Part A score 6/6 (highly positive). Comprehensive neurocognitive testing confirms executive function deficit.\nAssessment & Diagnosis: Attention-Deficit/Hyperactivity Disorder ([[DIAG|ADHD]]), Combined Presentation in Adult.\nManagement & Prescriptions: [[MED|Methylphenidate Extended-Release (Concerta)]] 18 mg oral once daily in the morning, titrate to 36 mg after 2 weeks; CBT for executive functioning skills.\nFollow-up & Disposition: Psychiatric follow-up with BP and heart rate monitoring in 4 weeks (2026-09-28).\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Barry Allen, a 25-year-old male, presented with lifelong severe inattention, inability to organize daily tasks, chronic procrastination, and impulsive interruption of conversations impacting job performance."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 118/74 mmHg, HR 70 bpm, Baseline EKG normal sinus rhythm. Diagnostic findings: ASRS-v1.1 (Adult ADHD Self-Report Scale) Part A score 6/6 (highly positive). Comprehensive neurocognitive testing confirms executive function deficit."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Attention-Deficit/Hyperactivity Disorder (ADHD), Combined Presentation in Adult."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Methylphenidate Extended-Release (Concerta) 18 mg oral once daily in the morning, titrate to 36 mg after 2 weeks; CBT for executive functioning skills."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Psychiatric follow-up with BP and heart rate monitoring in 4 weeks (2026-09-28)."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-048",
+    "category": "Neurology",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Gwen Stacy | Age: 23 | Gender: Female\nChief Complaint: Two unprovoked generalized tonic-clonic seizures occurring 3 weeks apart, characterized by tongue biting and 20-minute post-ictal confusion.\nVitals & Physical Findings: BP 114/72 mmHg, HR 76 bpm, Neurological exam between events normal.\nDiagnostic Tests & Laboratory Data: 24-hour video EEG: generalized 3 Hz spike-and-wave epileptiform discharges. 3T Brain MRI with epilepsy protocol is anatomically normal.\nAssessment & Diagnosis: Idiopathic Generalized [[DIAG|Epilepsy]].\nManagement & Prescriptions: [[MED|Levetiracetam (Keppra)]] 500 mg oral twice daily for 1 week, then increase to 1000 mg twice daily; driving restriction counseled according to state law (6 months seizure-free).\nFollow-up & Disposition: Epilepsy clinic review in 4 weeks (2026-09-28); emergency seizure safety rescue plan provided with [[MED|Midazolam nasal spray]] 5 mg PRN seizure >5 minutes.\nUrgency Level: Urgent.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Gwen Stacy, a 23-year-old female, presented with two unprovoked generalized tonic-clonic seizures occurring 3 weeks apart, characterized by tongue biting and 20-minute post-ictal confusion."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 114/72 mmHg, HR 76 bpm, Neurological exam between events normal. Diagnostic findings: 24-hour video EEG: generalized 3 Hz spike-and-wave epileptiform discharges. 3T Brain MRI with epilepsy protocol is anatomically normal."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Idiopathic Generalized Epilepsy."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Levetiracetam (Keppra) 500 mg oral twice daily for 1 week, then increase to 1000 mg twice daily; driving restriction counseled according to state law (6 months seizure-free)."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Urgent. Plan: Epilepsy clinic review in 4 weeks (2026-09-28); emergency seizure safety rescue plan provided with [[MED|Midazolam nasal spray]] 5 mg PRN seizure >5 minutes."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-049",
+    "category": "Orthopedics",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Thor Odinson | Age: 40 | Gender: Male\nChief Complaint: Severe lateral right elbow pain radiating down forearm, exacerbated by gripping and wrist extension (shaking hands, using tools).\nVitals & Physical Findings: BP 128/80 mmHg, HR 68 bpm. Physical exam: point tenderness at the right lateral epicondyle; positive Cozen test and positive Mill's test.\nDiagnostic Tests & Laboratory Data: Right elbow X-ray normal without calcification. Diagnostic musculoskeletal ultrasound: hypoechogenicity and thickening of the common extensor tendon origin.\nAssessment & Diagnosis: Lateral Epicondylitis ([[DIAG|Tennis Elbow]]) of the right upper extremity.\nManagement & Prescriptions: [[MED|Diclofenac 1% topical gel]] 2 grams applied to right lateral elbow 4 times daily, counterforce forearm brace, eccentric extensor physical therapy protocol.\nFollow-up & Disposition: Orthopedic clinic review in 6 weeks (2026-10-12); consider PRP injection if refractory.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Thor Odinson, a 40-year-old male, presented with severe lateral right elbow pain radiating down forearm, exacerbated by gripping and wrist extension (shaking hands, using tools)."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 128/80 mmHg, HR 68 bpm. Physical exam: point tenderness at the right lateral epicondyle; positive Cozen test and positive Mill's test. Diagnostic findings: Right elbow X-ray normal without calcification. Diagnostic musculoskeletal ultrasound: hypoechogenicity and thickening of the common extensor tendon origin."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Lateral Epicondylitis (Tennis Elbow) of the right upper extremity."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Diclofenac 1% topical gel 2 grams applied to right lateral elbow 4 times daily, counterforce forearm brace, eccentric extensor physical therapy protocol."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Orthopedic clinic review in 6 weeks (2026-10-12); consider PRP injection if refractory."
+      }
+    ]
+  },
+  {
+    "document_id": "MED-050",
+    "category": "Infectious Disease",
+    "document_text": "PATIENT MEDICAL RECORD & CLINICAL SUMMARY\nPatient: Loki Laufeyson | Age: 37 | Gender: Male\nChief Complaint: Persistent tick bite history followed by expanding erythematous circular rash with central clearing ('bullseye') on back, arthralgias, and fatigue.\nVitals & Physical Findings: BP 120/76 mmHg, HR 74 bpm, Temp 99.4 F. Skin exam: 12 cm circular erythema migrans lesion on posterior lumbar back.\nDiagnostic Tests & Laboratory Data: Serology: Two-tier Lyme testing positive (ELISA reactive, Western blot positive for Borrelia burgdorferi IgM antibodies). EKG normal PR interval.\nAssessment & Diagnosis: Early Localized [[DIAG|Lyme Disease]] (Erythema Migrans).\nManagement & Prescriptions: [[MED|Doxycycline]] 100 mg oral twice daily with a full glass of water for 14 days, sun protection advised.\nFollow-up & Disposition: Primary care follow-up in 2 weeks (2026-09-14) or sooner if palpitations, syncope, or facial weakness occurs.\nUrgency Level: Routine.",
+    "evaluations": [
+      {
+        "q_id": 1,
+        "question": "What is the patient's identity, age, gender, and chief presenting complaint?",
+        "ground_truth": "Loki Laufeyson, a 37-year-old male, presented with persistent tick bite history followed by expanding erythematous circular rash with central clearing ('bullseye') on back, arthralgias, and fatigue."
+      },
+      {
+        "q_id": 2,
+        "question": "What vital signs, physical examination, or diagnostic test results were recorded?",
+        "ground_truth": "Vitals: BP 120/76 mmHg, HR 74 bpm, Temp 99.4 F. Skin exam: 12 cm circular erythema migrans lesion on posterior lumbar back. Diagnostic findings: Serology: Two-tier Lyme testing positive (ELISA reactive, Western blot positive for Borrelia burgdorferi IgM antibodies). EKG normal PR interval."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the primary clinical diagnosis or medical condition established?",
+        "ground_truth": "Early Localized Lyme Disease (Erythema Migrans)."
+      },
+      {
+        "q_id": 4,
+        "question": "What specific medications, treatments, or dosages were prescribed in the management plan?",
+        "ground_truth": "Doxycycline 100 mg oral twice daily with a full glass of water for 14 days, sun protection advised."
+      },
+      {
+        "q_id": 5,
+        "question": "What is the urgency level and the scheduled follow-up or disposition plan?",
+        "ground_truth": "Urgency level is Routine. Plan: Primary care follow-up in 2 weeks (2026-09-14) or sooner if palpitations, syncope, or facial weakness occurs."
+      }
+    ]
+  }
+]

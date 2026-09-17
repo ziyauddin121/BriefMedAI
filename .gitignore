@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Frontend (Node / Vite)
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.log
+
+# Storage, Vector DB & Uploads
+chroma_db/
+vectorstore/
+*.sqlite3
+*.db
+uploads/
+temp/
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+/medisum_viva_prep.md
+/helper.md
